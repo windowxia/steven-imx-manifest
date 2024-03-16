@@ -13,6 +13,7 @@
   <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
 
   <remote name="nxp-imx"     fetch="https://github.com/nxp-imx"/>
+  <remote name="windowxia"     fetch="https://github.com/windowxia"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
   <project name="poky" remote="yp" path="sources/poky" revision="046b70083f3bc9e25f547e8026400032f5c563d9" upstream="nanbield"/>
