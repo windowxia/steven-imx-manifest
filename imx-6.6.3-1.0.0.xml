@@ -3,7 +3,7 @@
 
   <default revision="nanbield" sync-j="4"/>
 
-  <remote name="yp"          fetch="https://git.yoctoproject.org"/>
+  <remote name="yp"          fetch="https://github.com/yoctoproject"/>
   <remote name="oe"          fetch="https://github.com/openembedded"/>
   <remote name="kraj"        fetch="https://github.com/kraj"/>
 
