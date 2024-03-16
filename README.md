@@ -76,7 +76,7 @@ $: bitbake <image recipe>
 ```
 
 ```
-imx-image-multimedia
+bitbake imx-image-multimedia
 ```
 
 Some image recipes:
