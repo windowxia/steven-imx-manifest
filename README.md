@@ -39,7 +39,7 @@ Examples
 
 To download the 6.6.3-1.0.0 release
 ```
-$: repo init -u https://github.com/nxp-imx/imx-manifest -b imx-linux-nanbield -m imx-6.6.3-1.0.0.xml
+repo init -u https://github.com/windowxia/steven-imx-manifest -b main -m imx-6.6.3-1.0.0.xml
 ```
 
 Setup the build folder for a BSP release:
@@ -65,6 +65,7 @@ Examples:
 - Setup for XWayland.
 ```
 $: MACHINE=imx8mnevk DISTRO=fsl-imx-xwayland source ./imx-setup-release.sh -b bld-xwayland
+DISTRO=fsl-imx-fb MACHINE=imx6ull14x14evk source imx-setup-release.sh -b build-fb
 ```
 
 Build an image:
@@ -72,6 +73,10 @@ Build an image:
 
 ```
 $: bitbake <image recipe>
+```
+
+```
+imx-image-multimedia
 ```
 
 Some image recipes:
