@@ -65,6 +65,8 @@ Examples:
 - Setup for XWayland.
 ```
 $: MACHINE=imx8mnevk DISTRO=fsl-imx-xwayland source ./imx-setup-release.sh -b bld-xwayland
+```
+```
 DISTRO=fsl-imx-fb MACHINE=imx6ull14x14evk source imx-setup-release.sh -b build-fb
 ```
 
