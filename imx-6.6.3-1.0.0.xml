@@ -38,7 +38,7 @@
   <project name="meta-timesys" remote="timesys" path="sources/meta-timesys" revision="a0c1f045016fd54406888f3750c1355188ffed63" upstream="master"/>
   <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="9e92984ff47b3ca2106b1d27a93af061b28d1e8a" upstream="nanbield"/>
 
-  <project name="steven-meta-imx" remote="windowxia" path="sources/meta-imx" revision="bedb530c929dc2ca25b93615c71ff513681de79b" upstream="main">
+  <project name="steven-meta-imx" remote="windowxia" path="sources/meta-imx" revision="56f7abd5731886187dd9856b403812c391f644df" upstream="main">
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
