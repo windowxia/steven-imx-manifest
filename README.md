@@ -44,11 +44,7 @@ Examples
 
 To download the 6.6.36-2.1.0 release
 ```
-$: repo init -u https://github.com/nxp-imx/imx-manifest -b imx-linux-scarthgap -m imx-6.6.36-2.1.0.xml
-```
-To download the 6.6.23-2.0.0 release
-```
-$: repo init -u https://github.com/nxp-imx/imx-manifest -b imx-linux-scarthgap -m imx-6.6.23-2.0.0.xml
+$: repo init -u https://github.com/windowxia/imx-manifest -b imx-linux-scarthgap -m imx-6.6.36-2.1.0.xml
 ```
 
 Setup the build folder for a BSP release:
@@ -66,6 +62,10 @@ $: [MACHINE=<machine>] [DISTRO=fsl-imx-<backend>] source ./imx-setup-release.sh 
     wayland     Wayland
     fb          Framebuffer (not supported for mx8)
 ```
+example:
+```
+MACHINE=imx93evk DISTRO=fsl-imx-xwayland source ./imx-setup-release.sh -b bld-xwayland
+```
 
 Note: If the poky community distro is used, then build breaks will happen with some
 components using our `meta-imx` layer.
@@ -81,6 +81,10 @@ Build an image:
 
 ```
 $: bitbake <image recipe>
+```
+
+```
+bitbake imx-image-full
 ```
 
 Some image recipes:
